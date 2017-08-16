@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.metropolitan.cs330_pz.PostDetailActivity">
+
+        <include
+            android:id="@+id/post_author_layout"
+            layout="@layout/include_post_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+        <include
+            android:id="@+id/post_text_layout"
+            layout="@layout/include_post_text"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/post_author_layout"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+        <LinearLayout
+            android:id="@+id/comment_form"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_post"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1">
+
+            <EditText
+                android:id="@+id/field_comment_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:hint="Write a comment..."
+                android:maxLines="1" />
+
+            <Button
+                android:id="@+id/button_post_comment"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="Post" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_view_post"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/post_text_layout"
+            app:srcCompat="@drawable/ic_image_edit" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_comments"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.399"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/comment_form"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:listitem="@layout/item_comment" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

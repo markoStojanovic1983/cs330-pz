@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mare/.android/build-cache/18092671e0c45ca4c1518ebdd5844295d4ade7ed/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5bd38c72db0a3b4140d38b7fb527e78e46126d79">
+        <dex dex="/Users/mare/Desktop/PostChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b155bf85ce864e82ad5452911c32701e3000ea10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mare/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/mare/Desktop/PostChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_4cf221415b6185ddbbf444e2d1e002638c5f78b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mare/Desktop/PostChat/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/mare/Desktop/PostChat/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6166f40f1bf8a141804535860d363a526a5f008d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mare/Desktop/PostChat/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8f891c06fc0b39a6ab5b94332d6bf3509d9ebb31">
+        <dex dex="/Users/mare/Desktop/PostChat/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0261029335cb005de10bab9f2966443d70c0d036/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Post Chat</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_login">Log in</string>
+    <string name="menu_logout">Log out</string>
+    <string name="login_label">Log In</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="send_text">Send</string>
+    <string name="some_text_for_post">Some random text for post.Some random text for post.Some random text for post.Some random text for post.Some random text for post.Some random text for post.Some random text for post.Some random text for post.</string>
+    <string name="title_sign_in">Welcome</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hint_password">password</string>
+    <string name="hint_email">email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="recent">Recent</string>
+    <string name="my_posts">My Posts</string>
+    <string name="my_top_posts">My Top Posts</string>
+    <string name="hint_reset_email">Enter your email adress</string>
+    <string name="reset_email_button">Send me reset email</string>
+    <string name="recovery_email_txt">Forgot your password?</string>
+    <string name="menu_about">About</string>
+</resources>

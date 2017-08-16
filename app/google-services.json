@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "139857139628",
+    "firebase_url": "https://postchat-57d56.firebaseio.com",
+    "project_id": "postchat-57d56",
+    "storage_bucket": "postchat-57d56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139857139628:android:02b7087c592c1271",
+        "android_client_info": {
+          "package_name": "com.metropolitan.postchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139857139628-0utjpu0c9hf7dqe8tl8vaaanq4qi77uj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.metropolitan.postchat",
+            "certificate_hash": "7fa031d74d2c155a9dc57dff2109c8a50d579948"
+          }
+        },
+        {
+          "client_id": "139857139628-kj80kg279f841lha83niklpihcd09is0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.metropolitan.postchat",
+            "certificate_hash": "fdf02c1989e595179398d7984778296eff7097cb"
+          }
+        },
+        {
+          "client_id": "139857139628-i4fmjht09s3kspiadcndhtj6pcab4ivi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZfHJZgJ7FNNdRFxSKkiVUXQ-2_nhRVBI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139857139628-i4fmjht09s3kspiadcndhtj6pcab4ivi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
